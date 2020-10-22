@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Finding HTML Elements by CSS selectors</h2>
+
+<p class="intro">Hello World!</p>
+<p>This example demonstrates the <b>getElementsBy Selectors</b> method.</p>
+
+<p id="demo"></p>
+
+<script>
+var myElement = document.querySelectAll("p.intro");
+document.getElementById("demo").innerHTML = 
+"The text from the intro paragraph is " + myElement[0].innerHTML;
+</script>
+
+</body>
+</html>
